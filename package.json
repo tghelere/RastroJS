@@ -12,7 +12,9 @@
     "stop:pm2": "pm2 stop pm2-deploy.yml",
     "reatrt:pm2": "pm2 restart pm2-deploy.yml",
     "start:docker": "sudo docker-compose up -d ; sudo docker ps",
-    "stop:docker": "sudo docker-compose stop"
+    "stop:docker": "sudo docker-compose stop",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Tales Luna <tales.ferreira.luna@gmail.com>",
   "license": "MIT",
@@ -46,6 +48,8 @@
     "pg-hstore": "^2.3.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "sequelize": "^4.3.2"
-  }
+    "sequelize": "^4.3.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
