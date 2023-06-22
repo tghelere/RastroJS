@@ -44,11 +44,11 @@
     "mongoose": "^5.1.2",
     "morgan": "^1.8.2",
     "mysql2": "^1.4.2",
-    "pg": "^6.1.0",
+    "pg": "^8.4.0",
     "pg-hstore": "^2.3.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "sequelize": "^5.1.0",
+    "sequelize": "^6.1.0",
     "snyk": "^1.316.1"
   },
   "snyk": true
